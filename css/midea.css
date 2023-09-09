@@ -1,0 +1,295 @@
+@media only screen and (min-width:0px) and (max-width:566px) {
+    header {
+        flex-direction: column;
+        position: relative;
+        padding: 0px !important;
+    }
+
+    nav {
+        width: 90%;
+        position: absolute;
+        top: 60px;
+        left: -100%;
+        box-shadow: 0px 0px 10px 2px whitesmoke;
+        transition: 0.5s;
+        background-color: white;
+        z-index: 999;
+    }
+
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 150px !important;
+        height: 46px !important;
+    }
+
+    .bar {
+        display: block !important;
+        font-size: 25px;
+        cursor: pointer;
+        padding: 15px;
+        color: var(--primary-color);
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: start !important;
+    }
+
+    li {
+        font-weight: 600;
+        padding: 15px !important;
+        position: relative;
+        font-size: 14px;
+        font-weight: 400 !important;
+    }
+
+    ul button {
+        margin: 10px;
+    }
+
+    .bar1 {
+        display: none !important;
+    }
+
+    .nav_active {
+        left: 0%;
+    }
+
+    ul span {
+        display: none;
+    }
+
+    .locetion {
+        flex-wrap: wrap;
+        padding: 10px !important;
+    }
+
+    .Community {
+        width: 100%;
+        padding: 0px !important;
+    }
+
+    .section_2_main {
+        width: 100% !important;
+        flex-wrap: wrap;
+        display: block !important;
+        padding: 15px;
+    }
+
+    .section_2_main_section_1 {
+        flex-basis: 100%;
+    }
+
+    .form_section1 {
+        flex-basis: 100%;
+        height: auto !important;
+        margin-top: 20px !important;
+    }
+
+    .Community1 {
+        border: none !important;
+    }
+
+    .banner_slider{
+        padding-bottom: 50px !important;
+    }
+    .banner_slider img{
+        width: 100% !important;
+        height: 200px !important;
+    }
+    .section_2_main_section_1 h1 {
+        font-size: 25px !important;
+    }
+
+    .section_2_main_section_1 p {
+        font-size: 25px !important;
+        line-height: 40px !important;
+    }
+
+    .section_2_main_section_1 h4 {
+        text-align: justify;
+    }
+
+    .Community h3 {
+        font-size: 15px !important;
+    }
+
+    .formYour input {
+        padding: 8px 5px !important;
+        border: none;
+        border: 1px solid var(--primary-color) !important;
+    }
+
+    .formYour h2 {
+        font-size: 20px !important;
+    }
+
+    .formYour input,
+    textarea::placeholder {
+        font-size: 14px !important;
+    }
+
+    .formYour textarea {
+        height: 100px !important;
+        border: 1px solid var(--primary-color) !important;
+    }
+
+    .NOW button {
+        margin: 20px 0px !important;
+    }
+
+    .section_4_contend p {
+        text-align: justify !important;
+    }
+    .items_section_4 img{
+        width: 145px !important;
+    }
+
+    .section_4_section_1 {
+        width: 100% !important;
+    }
+
+    .items_section_4{
+        padding: 10px 20px !important;
+    }
+    .section_5th_main{
+        width: 100% !important;
+        padding: 0px 20px;
+    }
+    .section_5th_lightbox{
+        flex-wrap: wrap;
+    }
+    .floor_itam {
+        width: 100% !important;
+        margin: 20px 0px;
+    }
+    .tebs button{
+        padding: 10px 5px !important;
+        margin-right: 5px !important;
+        border: none;
+        font-size:14px !important;
+        background-color: white;
+        cursor: pointer;
+    }
+    .section_6_main{
+        width: 95% !important  ;
+    }
+    .arae_tebs{
+        width: 100% !important;
+        gap: 0 !important;
+        margin: 0px !important;
+    }
+    .section_6th_itaem{
+        width: 50% !important;
+        padding: 0px !important;
+    }
+    .section_7_main{
+        width: 100% !important;
+    }
+    .section_7_main img{
+        width: 100% !important;
+    }
+    .section_7_main h1{
+       font-size: 25px !important;
+    }
+    .section_8_main h1{
+        font-size: 25px !important;
+     }
+    .section_8_main{
+        width: 100% !important;
+    }
+    .section_8_main iframe{
+        width: 100% !important;
+        height: 350px !important;
+    }
+    .sectiomn_9_img{
+        display: none;
+    }
+    .section_9_main{
+        width: 95% !important;
+    }
+    .section_9_form{
+        flex-basis: 100% !important;
+    }
+    .section_9_form input{
+        width: 95% !important;
+        margin: 10px !important;
+    }
+    .section_10_main{
+        width: 95% !important;
+        flex-wrap: wrap;
+        padding: 0px !important;
+    }
+    .section_info{
+        flex-basis: 100% !important;
+        padding: 0px !important;
+        text-align: center;
+    }
+    .section_info h4{
+        font: 18px bold;
+        text-align: center;
+    }
+    .section_info img{
+        width: 150px !important;
+        height: 70px !important;
+    }
+    .section_10_media{
+        flex-basis: 100% !important;
+        padding-top: 50px !important;
+        text-align: center;
+    }
+    .section_10_media_img img {
+        width:160px !important;
+        height: 50px !important;
+    }
+    .section_10_media h5{
+        font-size: 10px !important;
+        line-height: 20px !important;
+    }
+    .section_10_media h4{
+        font-size: 11px !important;
+    }
+
+    .icons_media i{
+        width: 40px !important;
+        height: 40px !important;
+        padding-top: 8px !important;
+    }
+    .icons_media{
+        padding-bottom:25px !important;
+    }
+    .section_10th h2{
+        font-size: 15px !important;
+    }
+    .section_10th{
+        padding-bottom: 50px !important;
+    }
+    .mobile_icons{
+        width: 100% !important;
+        display: block !important;
+        display: flex !important;
+        background: var(--secondary-color);
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+    }
+    .infometion{
+        width: 33.33%;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px 0px;
+        color: white;
+        border-right:1px solid white;
+    }
+    .pop{
+        width: 80% !important;
+    }
+    
+
+}
